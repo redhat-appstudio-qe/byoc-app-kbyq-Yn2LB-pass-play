@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: hlvz
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-appstudio-qe/byoc-ybxj-tenant/byoc-app-kbyq/hlvz@sha256:eb7a5880e6e81b08ba6f5dd6dcbc472e4a84f24d42b4f53fe93030ebb9b7977b
         name: my-java-quarkus
         ports:
         - containerPort: 8081
